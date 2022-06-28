@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tru17189/FN/issues"
   },
-  "homepage": "https://github.com/tru17189/FN#readme"
+  "homepage": "https://github.com/tru17189/FN#readme",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
 }
