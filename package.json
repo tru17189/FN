@@ -1,0 +1,22 @@
+{
+  "name": "electron-testme",
+  "version": "1.0.0",
+  "description": "This is a social network for fashion world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tru17189/FN.git"
+  },
+  "keywords": [
+    "overalls"
+  ],
+  "author": "Alexander Trujillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tru17189/FN/issues"
+  },
+  "homepage": "https://github.com/tru17189/FN#readme"
+}
