@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/profile-style.css">
+    <link rel="stylesheet" href="styles/profile-style.css">
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>The Fashion Network</title>
   </head>
   <body>
-    <img class="main_logo" src="resources/Main_logo.png" alt="main_logo">
+    <div class="top_bar">
+      <a href="#main_logo">
+        <img class="main_logo" src="images/Main_logo.png" alt="main_logo">
+      </a>
+      <a class="top_bar-title">The Fashion Network</a>
+    </div>
 
-    <div class="container">
-      <p>LAATS</p>
-      <div class="col-3">
-        <div class="wrapper">
-          <div class="card">
-            <img height="500px" src="perfiles/foto2.png" alt="foto1">
-            <div class="content">
-              <p class="tittle">Avion parqueado desde enfrente</p>
-              <div class="col-2">
-                <p class="year">6-30-2022</p>
-              </div>
-              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="card">
-            <img height="500px" src="perfiles/foto2.png" alt="foto1">
-            <div class="content">
-              <p class="tittle">Avion parqueado desde enfrente</p>
-              <div class="col-2">
-                <p class="year">6-30-2022</p>
-              </div>
-              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="content-profile">
+      <table class="table-profile">
+        <tr>
+          <td rowspan="2"><img class="img-profile" src="perfiles/Silvia Tcherassi/profile.jpg"></td>
+          <td class="name-profile">Silvia Tcherassi</td>
+        </tr>
+        <tr>
+          <td class="text-profile">Diseñadora de modas y empresaria colombiana de trayectoria internacional. Sus colecciones incluyen prêt-à-porter,1​ vestidos de novia, accesorios y calzado.</td>
+        </tr>
+      </table>
     </div>
 
     <script src="./renderer.js"></script>
